@@ -1,0 +1,24 @@
+{
+  "name": "submission_dicoding_be",
+  "version": "1.0.0",
+  "description": "Submission Baru BE Dicoding 2024",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
+    "lint": "eslint ./ --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahmad Alamsyah Nazaruddin",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.3",
+    "moment": "^2.30.1",
+    "nanoid": "^3.1.22",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
